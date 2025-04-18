@@ -17,22 +17,11 @@ const Welcome: React.FC<WelcomeProps> = ({ navigateTo }) => {
       >
         <NuuronLogo size="large" />
         <h2 className="text-2xl mb-10">Less Painful Bidding</h2>
-        <p className="mb-8 text-lg max-w-xl mx-auto">
-          Create professional industrial documents from just three AI-generated questions, plus supporting documents.
-        </p>
         <motion.button 
           className="btn-primary text-lg"
           onClick={navigateTo}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          animate={{ 
-            scale: [1, 1.05, 1],
-            transition: { 
-              duration: 2,
-              repeat: Infinity,
-              repeatType: "reverse" 
-            }
-          }}
         >
           Experience Nuuron
         </motion.button>

@@ -232,7 +232,13 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
             </div>
 
             <div className="mt-8 border-t pt-6">
-              <button className="bg-primary text-white px-6 py-3 rounded-lg flex items-center">
+              {/* Placeholder div for spacing where the button would normally be */}
+              <div className="h-12"></div>
+            </div>
+            
+            {/* Floating button that stays at the bottom as user scrolls */}
+            <div className="fixed bottom-6 right-6 z-10">
+              <button className="bg-primary text-white px-6 py-3 rounded-lg flex items-center shadow-lg hover:shadow-xl transition-shadow">
                 <span>Message Nuuron</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
