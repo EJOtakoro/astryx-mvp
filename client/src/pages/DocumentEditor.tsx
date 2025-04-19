@@ -104,7 +104,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 </button>
               </div>
               
-              <div className="pl-4 border-l-2 border-gray-200 mt-4 mb-6">
+              <div className="pl-4 mt-4 mb-6">
                 <p className="mb-2">XYZ Inspection Ltd is a UK-registered subsea services provider with over 14 years of experience delivering high-resolution inspection and survey solutions to clients across the offshore wind, interconnector, and oil & gas sectors. We specialise in high-voltage cable inspections, structural integrity assessments, and ROV-based diagnostics.</p>
               </div>
 
@@ -117,7 +117,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 </button>
               </div>
               
-              <div className="pl-4 border-l-2 border-gray-200 mt-4 mb-6">
+              <div className="pl-4 mt-4 mb-6">
                 <p className="mb-2">We understand that the Moray Offshore Transmission Consortium (MOTC) is initiating a targeted campaign to assess the structural and burial integrity of 220 km of subsea export cables currently in operation. This follows environmental observations suggesting localised seabed mobility and potential exposure of joints, free spans, or strain points.</p>
                 <p>The campaign's core objectives include:</p>
                 <ul className="list-disc ml-6 mt-2 space-y-1">
