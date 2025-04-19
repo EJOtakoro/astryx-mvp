@@ -10,9 +10,13 @@ interface UserInfoProps {
 const UserInfo: React.FC<UserInfoProps> = ({ navigateTo }) => {
   const { userInfo, setUserInfo } = useAppContext();
   const [email, setEmail] = useState(userInfo.email);
-  const [userType, setUserType] = useState(userInfo.userType);
+  const [userType, setUserType] = useState('');
 
   const handleContinue = () => {
+    if (!email || !userType) {
+      alert("Please fill in your email and select your role before continuing");
+      return;
+    }
     setUserInfo({
       email,
       userType
