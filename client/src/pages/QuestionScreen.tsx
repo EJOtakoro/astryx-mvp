@@ -53,7 +53,7 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
           transition={{ duration: 0.4 }}
         >
           <h2 className="text-xl font-semibold mb-6">{question}</h2>
-          
+
           <div className="mb-6">
             <textarea 
               id={`answer-${questionNumber}`} 
@@ -69,7 +69,7 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
               <p className="default-text-label">Default answer. Click to edit</p>
             )}
           </div>
-          
+
           <div className="mt-8">
             <motion.button 
               className="btn-primary w-full"
