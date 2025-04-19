@@ -138,7 +138,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 </button>
               </div>
 
-              <div className="pl-4 border-l-2 border-gray-200 mt-4 mb-6">
+              <div className="pl-4 mt-4 mb-6">
                 <h3 className="font-medium mb-2">3.1 Survey Operations</h3>
                 <p className="mb-4">Our proposed bathymetric and geophysical survey approach will utilize {answers.answer1} to provide comprehensive seabed mapping and cable position verification. The multi-beam system will deliver high-resolution 3D terrain models to identify potential free spans and burial depth variations, while the side-scan sonar will capture detailed imagery of seabed features and potential cable exposures. Magnetometers will be deployed to precisely locate and track the cable routes where burial depths exceed the detection capabilities of acoustic methods.</p>
                 
@@ -169,7 +169,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 </button>
               </div>
 
-              <div className="pl-4 border-l-2 border-gray-200 mt-4 mb-6">
+              <div className="pl-4 mt-4 mb-6">
                 <div className="overflow-x-auto">
                   <table className="min-w-full border-collapse my-4">
                     <thead>
@@ -220,7 +220,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 </button>
               </div>
 
-              <div className="pl-4 border-l-2 border-gray-200 mt-4 mb-6">
+              <div className="pl-4 mt-4 mb-6">
                 <ul className="space-y-3">
                   <li><span className="font-medium">Weather Constraints:</span> Campaign scheduled within late-summer window (Aug–Sept); vessel capable of operating in up to 2.5m Hs.</li>
                   <li><span className="font-medium">Environmental Permitting:</span> Support offered for marine licence coordination, though XYZ does not act as named applicant.</li>
