@@ -18,7 +18,7 @@ const Welcome: React.FC<WelcomeProps> = ({ navigateTo }) => {
         <NuuronLogo size="large" />
         <h2 className="text-2xl mb-10">Less Painful Bidding</h2>
         <motion.button 
-          className="btn-primary text-lg"
+          className="btn-primary inspiring-text"
           onClick={navigateTo}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
