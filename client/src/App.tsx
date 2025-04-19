@@ -76,7 +76,7 @@ const MainFlow = () => {
       {currentScreen === "question-2" && (
         <QuestionScreen
           questionNumber={2}
-          question="Have there been any updates to ABC Inspection's subsea or ROV capabilities in the past 12 months?"
+          question="Have there been any updates to XYZ Inspection's subsea equipment or ROV assets in the past 12 months?"
           defaultAnswer="Yes, we added 2 new ROV's (Seaeye Falcon and Comanche) with high-res multibeam sonar"
           navigateTo={() => navigateTo("question-3")}
         />
