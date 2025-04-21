@@ -4,7 +4,7 @@ interface AstryxLogoProps {
   size?: 'small' | 'medium' | 'large';
 }
 
-const AstryxLogo: React.FC<AstryxLogoProps> = ({ size = 'medium' }) => {
+export const AstryxLogo: React.FC<AstryxLogoProps> = ({ size = 'medium' }) => {
   const getSizeClass = () => {
     switch (size) {
       case 'small':

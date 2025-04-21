@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import { AstryxLogo } from '../components/NuuronLogo';
 import { motion } from 'framer-motion';
 import { useAppContext } from '../lib/store';
 
