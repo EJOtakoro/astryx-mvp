@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { motion } from 'framer-motion';
 import { useAppContext } from '../lib/store';
 import DocumentInfoModal from '../components/DocumentInfoModal';
@@ -26,7 +26,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
     <section className="scroll-section py-8">
       <div className="max-w-4xl mx-auto w-full">
         <div className="flex items-center justify-between mb-8">
-          <NuuronLogo />
+          <AstryxLogo />
           <div className="flex space-x-3">
             <button 
               className="flex items-center text-primary font-medium hover:text-opacity-90"

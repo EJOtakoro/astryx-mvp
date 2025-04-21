@@ -1,5 +1,5 @@
 import React from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { motion } from 'framer-motion';
 
 interface WelcomeProps {
@@ -15,7 +15,7 @@ const Welcome: React.FC<WelcomeProps> = ({ navigateTo }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <NuuronLogo size="large" />
+        <AstryxLogo size="large" />
         <h2 className="text-2xl mb-10">Less Painful Bidding</h2>
         <motion.button 
           className="btn-primary text-lg"

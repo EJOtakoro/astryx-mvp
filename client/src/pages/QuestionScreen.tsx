@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { motion } from 'framer-motion';
 import { useAppContext } from '../lib/store';
 
@@ -44,7 +44,7 @@ const QuestionScreen: React.FC<QuestionScreenProps> = ({
     <section className="scroll-section">
       <div className="max-w-3xl mx-auto w-full">
         <div className="flex items-center mb-8">
-          <NuuronLogo />
+          <AstryxLogo />
         </div>
         <motion.div 
           className="question-card"

@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { useToast } from '@/hooks/use-toast';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { UserFeedback, UserResponses } from '@shared/schema';
 
 const AdminDashboard: React.FC = () => {
@@ -93,7 +93,7 @@ const AdminDashboard: React.FC = () => {
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <div className="flex items-center">
-            <NuuronLogo size="small" />
+            <AstryxLogo size="small" />
             <h1 className="ml-3 text-xl font-bold text-gray-900">Admin Dashboard</h1>
           </div>
           <button

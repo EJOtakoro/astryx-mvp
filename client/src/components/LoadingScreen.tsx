@@ -1,5 +1,5 @@
 import React from 'react';
-import NuuronLogo from './NuuronLogo';
+import AstryxLogo from './AstryxLogo';
 import { motion } from 'framer-motion';
 
 interface LoadingScreenProps {
@@ -17,7 +17,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
     <div className="scroll-section bg-gray-50">
       <div className="max-w-3xl mx-auto text-center w-full">
         <div className="flex items-center justify-center mb-8">
-          <NuuronLogo />
+          <AstryxLogo />
         </div>
         
         <p className="text-xl mb-8">{message}</p>

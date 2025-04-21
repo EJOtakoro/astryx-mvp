@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { motion } from 'framer-motion';
 import { Slider } from '../components/ui/slider';
 import { useAppContext } from '../lib/store';
@@ -45,7 +45,7 @@ const Feedback: React.FC<FeedbackProps> = ({ navigateTo }) => {
     <section className="scroll-section py-8">
       <div className="max-w-3xl mx-auto w-full">
         <div className="flex items-center mb-8">
-          <NuuronLogo />
+          <AstryxLogo />
         </div>
         <motion.div 
           className="question-card"

@@ -20,9 +20,9 @@ const AstryxLogo: React.FC<AstryxLogoProps> = ({ size = 'medium' }) => {
 
   return (
     <h1 className={`${getSizeClass()} font-bold text-primary`}>
-      Nuuron
+      Astryx
     </h1>
   );
 };
 
-export default NuuronLogo;
+export default AstryxLogo;

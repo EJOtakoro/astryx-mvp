@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { motion } from 'framer-motion';
 import DocumentPreview from '../components/DocumentPreview';
 
@@ -14,7 +14,7 @@ const DocumentUpload: React.FC<DocumentUploadProps> = ({ navigateTo }) => {
     <section className="scroll-section">
       <div className="max-w-3xl mx-auto w-full">
         <div className="flex items-center mb-8">
-          <NuuronLogo />
+          <AstryxLogo />
         </div>
         <motion.div 
           className="question-card mb-6"

@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { adminLoginSchema } from '@shared/schema';
 import { useToast } from '@/hooks/use-toast';
-import NuuronLogo from '../components/NuuronLogo';
+import AstryxLogo from '../components/AstryxLogo';
 import { apiRequest } from '@/lib/queryClient';
 
 const AdminLogin: React.FC = () => {
@@ -52,7 +52,7 @@ const AdminLogin: React.FC = () => {
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
           <div className="flex justify-center">
-            <NuuronLogo size="medium" />
+            <AstryxLogo size="medium" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Admin Portal
