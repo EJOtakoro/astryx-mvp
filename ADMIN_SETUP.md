@@ -16,7 +16,7 @@ This document explains how to set up an admin user for the Nuuron application.
 
    - If you don't provide a username and password, the defaults will be:
      - Username: `admin`
-     - Password: `Nuuron@dmin123`
+     - Password: `Astryx@dmin123`
 
    - Example with custom credentials:
      ```

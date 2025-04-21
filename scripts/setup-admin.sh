@@ -2,7 +2,7 @@
 
 # Default username and password
 DEFAULT_USERNAME="admin"
-DEFAULT_PASSWORD="Nuuron@dmin123"
+DEFAULT_PASSWORD="Astryx@dmin123"
 
 # Get username and password from command line arguments or use defaults
 USERNAME=${1:-$DEFAULT_USERNAME}
