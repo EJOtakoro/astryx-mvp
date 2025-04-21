@@ -242,7 +242,7 @@ const DocumentEditor: React.FC<DocumentEditorProps> = ({ navigateTo }) => {
                 onClick={() => setShowFeatureSoon(true)}
                 className="bg-gray-900 text-white px-6 py-2 rounded-full flex items-center shadow-lg hover:bg-gray-800 transition-all"
               >
-                <span>Instruct Nuuron</span>
+                <span>Instruct Astryx</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2L17 12L12 22L7 12L12 2Z"/>
                 </svg>

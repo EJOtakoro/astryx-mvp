@@ -20,7 +20,7 @@ const DocumentInfoModal: React.FC<DocumentInfoModalProps> = ({ onClose }) => {
         transition={{ duration: 0.3 }}
       >
         <div className="flex justify-between items-center mb-4">
-          <h3 className="font-bold text-lg">About Nuuron</h3>
+          <h3 className="font-bold text-lg">About Astryx</h3>
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -28,7 +28,7 @@ const DocumentInfoModal: React.FC<DocumentInfoModalProps> = ({ onClose }) => {
           </button>
         </div>
         <p className="mb-4">
-          Nuuron is silo-trained on your company's past procurement documents to act as a technical bid writer. 
+          Astryx is silo-trained on your company's past procurement documents to act as a technical bid writer. 
           This allows it to effectively capture your organization's tone, style, and technical approaches.
         </p>
         <p>

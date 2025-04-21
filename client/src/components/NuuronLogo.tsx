@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface NuuronLogoProps {
+interface AstryxLogoProps {
   size?: 'small' | 'medium' | 'large';
 }
 
-const NuuronLogo: React.FC<NuuronLogoProps> = ({ size = 'medium' }) => {
+const AstryxLogo: React.FC<AstryxLogoProps> = ({ size = 'medium' }) => {
   const getSizeClass = () => {
     switch (size) {
       case 'small':

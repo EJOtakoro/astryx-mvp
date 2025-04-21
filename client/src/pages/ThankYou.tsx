@@ -15,11 +15,11 @@ const ThankYou: React.FC<ThankYouProps> = ({ navigateTo }) => {
         transition={{ duration: 0.5 }}
       >
         <h1 className="text-5xl font-bold text-primary mb-6">Thank You!</h1>
-        <p className="mb-10 text-lg">Like what you saw? You can get in touch with the team behind Nuuron using the details below:</p>
+        <p className="mb-10 text-lg">Like what you saw? You can get in touch with the team behind Astryx using the details below:</p>
         
         <div className="bg-white p-6 rounded-lg shadow-md inline-block text-left mb-10">
           <p className="font-bold mb-2">
-            Founder: <a href="mailto:ejiro.otakoro@nuuron.ai" className="text-primary hover:underline">ejiro.otakoro@nuuron.ai</a>
+            Founder: <a href="mailto:ejiro.otakoro@astryx.ai" className="text-primary hover:underline">ejiro.otakoro@astryx.ai</a>
           </p>
           <p className="font-bold">
             Phone: <a href="tel:+447879131086" className="text-primary hover:underline">+44 7879 131086</a>
