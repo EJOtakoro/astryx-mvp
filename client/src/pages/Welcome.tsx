@@ -1,5 +1,5 @@
 import React from 'react';
-import { AstryxLogo } from '../components/NuuronLogo';
+import NuuronLogo from '../components/NuuronLogo';
 import { motion } from 'framer-motion';
 
 interface WelcomeProps {
